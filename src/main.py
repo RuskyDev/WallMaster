@@ -13,9 +13,6 @@ class WallMaster:
         self.master = master
         master.title("WallMaster")
 
-        icon_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "icon.ico")
-        master.iconbitmap(icon_path)
-
         master.resizable(False, False)
         master.geometry("500x300")
 
